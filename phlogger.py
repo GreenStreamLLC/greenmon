@@ -23,7 +23,7 @@ while True:
         time_now = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')
         
     else:
-        line = line + data 
+        print "Does this work?" 
 while True:
     #Open Log File
     f = open('pHlog.txt','a')
